@@ -1,0 +1,21 @@
+{
+    "name": "pwsc/yii2-pwsc",
+    "description": "To Manage the Content of the Site",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Patrick Scott",
+            "email": "support@pwscomputers.com.au"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pwsc\\cms\\": ""
+        }
+    }
+}
